@@ -12,9 +12,7 @@ export class ChatEngine {
     this.instance = ChatEngineCore.create(
       {
         publishKey: '<PUBNUB PUBLISH KEY>',
-        subscribeKey: '<PUBNUB SUBSCRIBE KEY>',
-        presenceTimeout: 10,
-        heartbeatInterval: 4
+        subscribeKey: '<PUBNUB SUBSCRIBE KEY>'
       },
       {
         debug: true,
